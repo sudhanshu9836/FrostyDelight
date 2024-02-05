@@ -1,0 +1,124 @@
+/* CSS BOILERPLATE */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/* Images Styles */
+#logo{
+    height: 200px;
+    width: 200px;
+}
+.menu-pic{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    transform: translate(60px, -60px);
+}
+
+/* Button Styles */
+
+.bt1{
+    height: 50px;
+    width: 125px;
+    border-radius: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+/* Header Styles */
+header{
+    width: 100vw;
+    height: 220px;
+    background-image: url("./assets/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.nav a{
+    color: white;
+    margin: 20px;
+}
+.social-icons i{
+    color: white;
+    margin: 10px;
+}
+#our-menu{
+    text-align: center;
+    color: white;
+    font-style: 600;
+}
+#home-menu{
+    text-align: center;
+    color: white;
+}
+.main-head{
+    transform: translate(0px -100px);
+}
+
+/* Main Styles */
+
+main{
+    margin-top: 100px;
+}
+#m1{
+    color: red;
+    text-align: center;
+    font-weight: lighter;
+}
+#m2{
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    word-spacing: 0.7em;
+    margin: 20px;
+}
+.menu{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: auto;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+#ice-box{
+    background-color: #f5b2c3;
+    border: 1px solid #f5b2c3;
+    box-shadow: 5px 5px #f5b2c3;
+}
+#yog-box{
+    background-color: #b9da91;
+    border: 1px solid #b9da91;
+    box-shadow: 5px 5px #b9da91;
+}
+#milk-box{
+    background-color: #e9c99e;
+    border: 1px solid #e9c99e;
+    box-shadow: 5px 5px #e9c99e;
+}
+.box-att{
+    text-align: center;
+    margin: 10px 0px;
+}
+.menu-btn{
+    margin: 20px 110px;
+}
+.box{
+    margin-top: -50px
+}
