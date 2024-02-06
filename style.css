@@ -23,6 +23,14 @@ a{
     border-radius: 50%;
     transform: translate(60px, -60px);
 }
+.special-image{
+    height: 200px;
+    width: 200px;
+}
+.menu-pic-2{
+    height: 300px;
+    width: 300px;
+}
 
 /* Button Styles */
 
@@ -87,7 +95,7 @@ main{
     margin: 20px;
 }
 .menu{
-    margin-top: 50px;
+    margin: 50px 0px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -121,4 +129,23 @@ main{
 }
 .box{
     margin-top: -50px
+}
+.special{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s h4{
+    color: red;
+}
+
+.menu2{
+    height: auto;
+    width: 100vw;
+    background-color: #f2edea;
 }
