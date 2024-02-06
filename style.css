@@ -149,3 +149,48 @@ main{
     width: 100vw;
     background-color: #f2edea;
 }
+
+.a1{
+    height: 400px;
+    width: 400px;
+    background-image: url(./assets/Mixed\ Berry\ Ice\ Cream.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+}
+.a2{
+    margin-top: 100px;
+}
+.a2 h3{
+    color: red;
+    margin-top: 30px;
+}
+.menu2A{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu2B{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    margin-top: 100px;
+}
+.b1 h3{
+    color: red;
+    margin-top: 30px;
+}
+.b2{
+    height: 400px;
+    width: 400px;
+    background-image: url(./assets/creamy-mix.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 50px;
+}
