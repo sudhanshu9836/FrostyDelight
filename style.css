@@ -48,6 +48,13 @@ a{
     color: white;
     background-color: red;
 }
+.bt3{
+    border: none;
+    background-color: #f5b2c3;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 /* Header Styles */
 header{
@@ -133,6 +140,22 @@ main{
 }
 .menu-btn{
     margin: 20px 110px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.ice-cream{
+    margin-bottom: 40px;
+}
+.ice-cream h4{
+    color: red;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.left, .right{
+    display: flex;
+    flex-direction: column;
 }
 .box{
     margin-top: -50px
@@ -241,18 +264,62 @@ footer{
     height: auto;
     background-color: #f5b2c3;
 }
+.f1{
+    color: white;
+}
 .f1, .f3{
     display: flex;
     justify-content: space-around;
 }
-.f1 h3, .f1 h5, .f1 button{
-    margin-top: 50px;
+.f1 h3, .f1 h5{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.f1 button{
+    margin: auto 0px;
 }
 .f2{
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
-.f2A, .f2B, .f2C, .f2D{
+.nav2{
     display: flex;
     flex-direction: column;
+}
+.nav2 h3{
+    color: white;
+    margin-bottom: 50px;
+}
+.nav2 span{
+    color: white;
+    opacity: 0.9;
+}
+.nav2 i{
+    margin-right: 10px;
+    color: maroon;
+    opacity: 1;
+}
+.social-icons{
+    display: flex;
+}
+.nav2 a{
+    margin: 20px;
+    margin-top: 0px;
+    color: white;
+}
+.nav2 p{
+    color: white;
+    margin-bottom: 20px;
+}
+.bt3 i{
+    margin-left: 5px;
+    color: white;
+}
+.f3{
+    color: white;
+    margin-top: 20px;
+}
+.f3 a{
+    color: white;
 }
