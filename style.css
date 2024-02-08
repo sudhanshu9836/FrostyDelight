@@ -63,7 +63,7 @@ a{
 header{
     width: 100vw;
     height: 220px;
-    background-image: url("./assets/cover.png");
+    background-image: url("./assets/trh.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -198,16 +198,11 @@ main{
     color: #777474;
     margin-left: 15px;
 }
-.pic p{
-    margin-bottom: 20px;
-    margin-left: 15px;
-    color: #777474
-}
 .pic h3{
     color: #c91546;
-    margin: 7px 0px;
-    margin-left: 15px;
+    margin: 7px 0px 20px 15px;
     font-size: 1.8em;
+
 }
 .b2{
     height: 400px;
