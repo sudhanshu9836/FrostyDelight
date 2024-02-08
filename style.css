@@ -29,8 +29,9 @@ a{
     width: 200px;
 }
 #process-pic{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
 }
 
 /* Button Styles */
@@ -48,12 +49,12 @@ a{
     width: 125px;
     border-radius: 30px;
     color: white;
-    background-color: #c91546;
+    background-color: rgb(201, 21, 70);
     cursor: pointer;
 }
 .bt3{
     border: none;
-    background-color: #f5b2c3;
+    background-color: rgb(245, 178, 195);
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -165,7 +166,7 @@ main{
 .special{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 0px;
+    margin: 25px 0px 50px 0px;
 }
 .s{
     display: flex;
@@ -185,13 +186,40 @@ main{
 .a1{
     height: 400px;
     width: 400px;
-    background-image: url(./assets/Mixed\ Berry\ Ice\ Cream.jpeg);
+    background-image: url(./assets/Mixed\ Berry\ Ice\ Cream.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    align-items: center;
     margin-top: 50px;
+    border-radius: 30px;
+}
+.pic h4{
+    color: #777474;
+    margin-left: 15px;
+}
+.pic p{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    color: #777474
+}
+.pic h3{
+    color: #c91546;
+    margin: 7px 0px;
+    margin-left: 15px;
+    font-size: 1.8em;
+}
+.b2{
+    height: 400px;
+    width: 400px;
+    background-image: url(./assets/creamy-mix.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 50px 0px;
+    border-radius: 30px;
+
 }
 .a2{
     margin-top: 100px;
@@ -214,17 +242,6 @@ main{
 .b1 h3{
     color: #c91546;
     margin-top: 30px;
-}
-.b2{
-    height: 400px;
-    width: 400px;
-    background-image: url(./assets/creamy-mix.jpg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    margin-top: 50px;
 }
 .process{
     margin-top: 100px;
