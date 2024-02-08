@@ -6,275 +6,280 @@
     <title>Frosty Delight</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="top">
-            <img src="./assets/logo.png" alt="logo" id="logo">
-            <div class="nav">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Pages</a>
-                <a href="#">Contact</a>
-            </div>
-            <div class="social-icons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <button class="bt1">Our shops<i class="fa-solid fa-arrow-right" style="color: maroon ;"></i></button>
-            </div>
-        </div>
-        <div class="main-head">
-            <h1 id="our-menu">Our Menu</h1>
-            <h4 id="home-menu">Home - Menu</h4>
-        </div>
-    </header>
-    <main>
-        <h4 id="m1">OUR PRODUCTS</h4>
-        <h2 id="m2"> REAL ICECREAM FOR REAL <br> PEOPLE</h2>
-        <div class="menu">
-            <div class="card" id="ice-box">
-                <img src="./assets/icecream.jpg" alt="ice-cream" class="menu-pic">
-                <div class="box">
-                    <h2 class="box-att">Ice Creams</h2>
-                    <h4 class="box-att">⭐️⭐️⭐️⭐️⭐️</h4>
-                    <p class="box-att">"Crunchy cones cradle creamy indulgence, a delightful treat with every lick."</p>
-                    <button class="bt1 menu-btn">Order now</button>
+    <div class="body">
+        <header>
+            <div class="top">
+                <img src="./assets/logo.png" alt="logo" id="logo">
+                <div class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Contact</a>
                 </div>
-            </div>
-            <div class="card" id="yog-box">
-                <img src="./assets/yogurt.png" alt="yogurt" class="menu-pic">
-                <div class="box">
-                    <h2 class="box-att">Yogurt</h2>
-                    <h4 class="box-att">⭐️⭐️⭐️⭐️⭐️</h4>
-                    <p class="box-att">""Tangy, creamy yogurt, a refreshing swirl of probiotic goodness.""</p>
-                    <button class="bt1 menu-btn">Order now</button>
-                </div>
-            </div>
-            <div class="card" id="milk-box">
-                <img src="./assets/milk-shake.jpeg" alt="milk-shake" class="menu-pic">
-                <div class="box" >
-                    <h2 class="box-att">Milkshakes</h2>
-                    <h4 class="box-att">⭐️⭐️⭐️⭐️⭐️</h4>
-                    <p class="box-att">""Velvety milkshake bliss, a symphony of <br>flavors in every sip.""</p>
-                    <button class="bt1 menu-btn">Order now</button>
-                </div>
-            </div>
-        </div>
-        <div class="main-menu">
-        <div class="left">
-            <div class="ice-cream">
-            <h4>Vanilla</h4>
-            <p>Classic creamy goodness.</p>
-            <hr>
-            </div>  
-            <div class="ice-cream">
-            <h4>Chocolate</h4>
-            <p>Rich and indulgent delight.</p>
-            <hr>
-            </div>
-            <div class="ice-cream">
-            <h4>Strawberry</h4>
-            <p>Fresh and fruity sensation.</p>
-            <hr>
-            </div>
-            <div class="ice-cream">
-            <h4>Mint Chocolate Chip</h4>
-            <p>Cool and refreshing with chocolate crunch.</p>
-            <hr>
-            </div>
-        </div>
-        <div class="right">
-            <div class="ice-cream">
-                <h4>Cookies and Cream</h4>
-                <p>Crunchy, creamy cookie bliss.</p>
-                <hr>
-            </div>
-                <div class="ice-cream">
-                    <h4>Rocky Road</h4>
-                    <p>Chocolaty, nutty, marshmallow dream.</p>
-                    <hr>
-                </div>
-            
-                <div class="ice-cream">
-                    <h4>Butter Pecan</h4>
-                    <p>Rich buttery flavor with crunchy pecans.</p>
-                    <hr>
-                </div>
-            
-                <div class="ice-cream">
-                    <h4>Salted Caramel</h4>
-                    <p>Sweet and salty perfection.</p>
-                    <hr>
-                </div>
-        </div>
-
-        </div>
-        <h2 id="m2">Today's Special</h3>
-        <div class="special">
-            <div class="s">
-                <img src="./assets/bluberry.png" alt="blueberry" class="special-image">
-                <h4>Blueberry</h4>
-                <p>creamy sweetness with tangy bursts of fruit</p>
-                <h5>&#8377 154 </h5>
-            </div>
-            <div class="s">
-                <img src="./assets/cappucino.png" alt="Cappuccino" class="special-image">
-                <h4>Cappuccino</h4>
-                <p>a rich blend of coffee and creaminess</p>
-                <h5>&#8377 176 </h5>
-            </div>
-            <div class="s">
-                <img src="./assets/mango.png" alt="Mango" class="special-image">
-                <h4>Mango</h4>
-                <p>tropical sweetness in a creamy frozen treat</p>
-                <h5>&#8377 140 </h5>
-            </div>
-            <div class="s">
-                <img src="./assets/pistachio.png" alt="Pistachio" class="special-image">
-                <h4>Pistachio</h4>
-                <p> nutty richness in creamy indulgence</p>
-                <h5>&#8377 120 </h5>
-            </div>
-        </div>
-        <div class="menu2">
-            <div class="menu2A">
-                <div class="a1 pic">
-                    <h4>Signature Menu</h4>
-                    <h3>RED BERRY MIX</h3>
-                    <p>A tantalizing blend of juicy red berries bursting with vibrant flavor in every bite.</p>
-                </div>
-                <div class="a2">
-                    <h3>SALTY BREEZE</h3>
-                    <p>Ocean-inspired salt meets creamy sweetness.</p>
-                    <hr>
-                    <h3>LATE PUMPKIN</h3>
-                    <p>A tardy twist on pumpkin spice.</p>
-                    <hr>
-                    <h3>BLACK REAPER</h3>
-                    <p>Intensely fiery black reaper peppers ignite.</p>
-                    <hr>
-                    <h3>SLIGHT SALTY</h3>
-                    <p>Subtly tinged with saltiness.</p>
-                    <hr>
-                </div>
-            </div>
-            <div class="menu2B">
-                <div class="b1">
-                    <h3>SALTY BREEZE</h3>
-                    <p>Ocean-inspired salt meets creamy sweetness.</p>
-                    <hr>
-                    <h3>LATE PUMPKIN</h3>
-                    <p>A tardy twist on pumpkin spice.</p>
-                    <hr>
-                    <h3>BLACK REAPER</h3>
-                    <p>Intensely fiery black reaper peppers ignite.</p>
-                    <hr>
-                    <h3>SLIGHT SALTY</h3>
-                    <p>Subtly tinged with saltiness.</p>
-                    <hr>
-                </div>  
-                <div class="b2 pic">
-                    <h4>Signature Menu</h4>
-                    <h3>CREAMY MIX</h3>
-                    <p>A tantalizing blend of creams bursting with vibrant flavor in every bite.</p>
-                </div>
-            </div>
-        </div>
-        <div class="process">
-            <img src="./assets/try.jpg" alt="ice cream" id="process-pic">
-            <div class="c1">
-                <h4>HOW IT'S MADE</h4>
-                <h1>A TASTE OF PARADISE !</h2>
-                <p>Indulge in the taste of paradise with every scoop of my ice cream, where creamy swirls of sweetness dance on your taste buds.</p>
-                <div class="methods">
-                    <div class="p">
-                        <i class="fa-regular fa-thumbs-up"></i>
-                        <h4>HYGIENIC PROCESS</h4>
-                        <p> The ice cream is crafted through a hygienic process,<br> ensuring purity and safety.</p>
-                    </div>
-                    <div class="p">
-                        <i class="fa-regular fa-lightbulb"></i>
-                        <h4>MORDERN EQUIPMENT</h4>
-                        <p>State-of-the-art modern equipment is employed in <br>its production, guaranteeing efficiency and precision</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="methods">
-            <div class="p">
-                <i class="fa-regular fa-square-plus"></i>
-                <h4>BIO MILK AND CREAM</h4>
-                <p>Bio milk and cream, sourced from organic farms, <br>form the base of our creamy delight.</p>
-            </div>
-            <div class="p">
-                <i class="fa-regular fa-lemon"></i>
-                <h4>FRESH FRUIT ADDED</h4>
-                <p>Fresh fruits, carefully selected for their quality <br>and flavor, are added to enhance the taste and nutrition.</p>
-            </div>
-            <div class="p">
-                <i class="fa-regular fa-gem"></i>
-                <h4>DELICIOUS ICECREAM</h4>
-                <p>The culmination of these steps results in a delicious <br> ice cream, a treat for the senses.</p>
-            </div>
-        </div>
-        <div class="banner">
-            <h4>SPECIAL DISCOUNT</h4>
-            <H2>GET SPECIAL FESTIVAL <br>DISCOUNT!</H2>
-            <div>
-                <button class="bt2">Our Products <i class="fa-solid fa-arrow-right"></i></button>
-                <button class="bt1">Contact us <i class="fa-solid fa-phone"></i></button>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="f1">
-            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-            <h5> Your Email</h5>
-            <button class="bt1"> Subscribe </button>
-        </div>
-        <hr>
-        <div class="f2">
-            <div class="nav2">
-                <img src="./assets/logo.png" id="logo" alt="">
-                <p>The best icecream sellers of the <br>
-                City of Lakes Bhopal </p>
-            </div>
-            <div class="nav2">
-                <h3>GET IN TOUCH</h3>
-                <span><i class="fa-solid fa-location-dot"></i>Sagar High Street, Minal Residency</span> <br><br><br>
-                <span><i class="fa-solid fa-envelope"></i>frostydelight@gmail.com</span> <br><br><br>
-                <span><i class="fa-solid fa-phone"></i>+91(234)567890</span><br><br>
                 <div class="social-icons">
                     <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-youtube"></i>
+                    <button class="bt1">Our shops<i class="fa-solid fa-arrow-right" style="color: maroon ;"></i></button>
                 </div>
             </div>
-            <div class="nav2">
-                <h3>Quick Links</h3>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">FAQs</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+            <div class="main-head">
+                <h1 id="our-menu">Our Menu</h1>
+                <h4 id="home-menu">Home - Menu</h4>
             </div>
-            <div class="nav2">
-                <h3>Opening Hours</h3>
-                <p>Mon-Fri: 09:00-18:00</p>
-                <p>Saturday: 10:00-17:00</p>
-                <p>Sunday: 10:00-17:00</p>
-                <button class="bt3">Shop now <i class="fa-solid fa-arrow-right"></i></button>
+        </header>
+        <main>
+            <h4 id="m1">OUR PRODUCTS</h4>
+            <h2 id="m2"> REAL ICECREAM FOR REAL <br> PEOPLE</h2>
+            <div class="menu">
+                <div class="card" id="ice-box">
+                    <img src="./assets/icecream.jpg" alt="ice-cream" class="menu-pic">
+                    <div class="box">
+                        <h2 class="box-att">Ice Creams</h2>
+                        <h4 class="box-att">⭐️⭐️⭐️⭐️⭐️</h4>
+                        <p class="box-att">"Crunchy cones cradle creamy indulgence, a delightful treat with every lick."</p>
+                        <button class="bt1 menu-btn">Order now</button>
+                    </div>
+                </div>
+                <div class="card" id="yog-box">
+                    <img src="./assets/yogurt.png" alt="yogurt" class="menu-pic">
+                    <div class="box">
+                        <h2 class="box-att">Yogurt</h2>
+                        <h4 class="box-att">⭐️⭐️⭐️⭐️⭐️</h4>
+                        <p class="box-att">""Tangy, creamy yogurt, a refreshing swirl of probiotic goodness.""</p>
+                        <button class="bt1 menu-btn">Order now</button>
+                    </div>
+                </div>
+                <div class="card" id="milk-box">
+                    <img src="./assets/milk-shake.jpeg" alt="milk-shake" class="menu-pic">
+                    <div class="box" >
+                        <h2 class="box-att">Milkshakes</h2>
+                        <h4 class="box-att">⭐️⭐️⭐️⭐️⭐️</h4>
+                        <p class="box-att">""Velvety milkshake bliss, a symphony of <br>flavors in every sip.""</p>
+                        <button class="bt1 menu-btn">Order now</button>
+                    </div>
+                </div>
             </div>
-        </div>
-        <hr>
-        <div class="f3">
-            <p>Copyright @2024</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms and Conditions</a>
-        </div>
-    </footer>
+            <div class="main-menu">
+            <div class="left">
+                <div class="ice-cream">
+                <h4>Vanilla</h4>
+                <p>Classic creamy goodness.</p>
+                <hr>
+                </div>  
+                <div class="ice-cream">
+                <h4>Chocolate</h4>
+                <p>Rich and indulgent delight.</p>
+                <hr>
+                </div>
+                <div class="ice-cream">
+                <h4>Strawberry</h4>
+                <p>Fresh and fruity sensation.</p>
+                <hr>
+                </div>
+                <div class="ice-cream">
+                <h4>Mint Chocolate Chip</h4>
+                <p>Cool and refreshing with chocolate crunch.</p>
+                <hr>
+                </div>
+            </div>
+            <div class="right">
+                <div class="ice-cream">
+                    <h4>Cookies and Cream</h4>
+                    <p>Crunchy, creamy cookie bliss.</p>
+                    <hr>
+                </div>
+                    <div class="ice-cream">
+                        <h4>Rocky Road</h4>
+                        <p>Chocolaty, nutty, marshmallow dream.</p>
+                        <hr>
+                    </div>
+                
+                    <div class="ice-cream">
+                        <h4>Butter Pecan</h4>
+                        <p>Rich buttery flavor with crunchy pecans.</p>
+                        <hr>
+                    </div>
+                
+                    <div class="ice-cream">
+                        <h4>Salted Caramel</h4>
+                        <p>Sweet and salty perfection.</p>
+                        <hr>
+                    </div>
+            </div>
+    
+            </div>
+            <h2 id="m2">Today's Special</h3>
+            <div class="special">
+                <div class="s">
+                    <img src="./assets/bluberry.png" alt="blueberry" class="special-image">
+                    <h4>Blueberry</h4>
+                    <p>creamy sweetness with tangy bursts of fruit</p>
+                    <h5>&#8377 154 </h5>
+                </div>
+                <div class="s">
+                    <img src="./assets/cappucino.png" alt="Cappuccino" class="special-image">
+                    <h4>Cappuccino</h4>
+                    <p>a rich blend of coffee and creaminess</p>
+                    <h5>&#8377 176 </h5>
+                </div>
+                <div class="s">
+                    <img src="./assets/mango.png" alt="Mango" class="special-image">
+                    <h4>Mango</h4>
+                    <p>tropical sweetness in a creamy frozen treat</p>
+                    <h5>&#8377 140 </h5>
+                </div>
+                <div class="s">
+                    <img src="./assets/pistachio.png" alt="Pistachio" class="special-image">
+                    <h4>Pistachio</h4>
+                    <p> nutty richness in creamy indulgence</p>
+                    <h5>&#8377 120 </h5>
+                </div>
+            </div>
+            <div class="menu2">
+                <div class="menu2A">
+                    <div class="a1 pic">
+                        <h4>Signature Menu</h4>
+                        <h3>RED BERRY MIX</h3>
+                        <p>A tantalizing blend of juicy red berries bursting with vibrant flavor in every bite.</p>
+                    </div>
+                    <div class="a2">
+                        <h3>SALTY BREEZE</h3>
+                        <p>Ocean-inspired salt meets creamy sweetness.</p>
+                        <hr>
+                        <h3>LATE PUMPKIN</h3>
+                        <p>A tardy twist on pumpkin spice.</p>
+                        <hr>
+                        <h3>BLACK REAPER</h3>
+                        <p>Intensely fiery black reaper peppers ignite.</p>
+                        <hr>
+                        <h3>SLIGHT SALTY</h3>
+                        <p>Subtly tinged with saltiness.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="menu2B">
+                    <div class="b1">
+                        <h3>SALTY BREEZE</h3>
+                        <p>Ocean-inspired salt meets creamy sweetness.</p>
+                        <hr>
+                        <h3>LATE PUMPKIN</h3>
+                        <p>A tardy twist on pumpkin spice.</p>
+                        <hr>
+                        <h3>BLACK REAPER</h3>
+                        <p>Intensely fiery black reaper peppers ignite.</p>
+                        <hr>
+                        <h3>SLIGHT SALTY</h3>
+                        <p>Subtly tinged with saltiness.</p>
+                        <hr>
+                    </div>  
+                    <div class="b2 pic">
+                        <h4>Signature Menu</h4>
+                        <h3>CREAMY MIX</h3>
+                        <p>A tantalizing blend of creams bursting with vibrant flavor in every bite.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process">
+                <img src="./assets/try.jpg" alt="ice cream" id="process-pic">
+                <div class="c1">
+                    <h4>HOW IT'S MADE</h4>
+                    <h1>A TASTE OF PARADISE !</h2>
+                    <p>Indulge in the taste of paradise with every scoop of my ice cream, where creamy swirls of sweetness dance on your taste buds.</p>
+                    <div class="methods">
+                        <div class="p">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <h4>HYGIENIC PROCESS</h4>
+                            <p> The ice cream is crafted through a hygienic process,<br> ensuring purity and safety.</p>
+                        </div>
+                        <div class="p">
+                            <i class="fa-regular fa-lightbulb"></i>
+                            <h4>MORDERN EQUIPMENT</h4>
+                            <p>State-of-the-art modern equipment is employed in <br>its production, guaranteeing efficiency and precision</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="methods">
+                <div class="p">
+                    <i class="fa-regular fa-square-plus"></i>
+                    <h4>BIO MILK AND CREAM</h4>
+                    <p>Bio milk and cream, sourced from organic farms, <br>form the base of our creamy delight.</p>
+                </div>
+                <div class="p">
+                    <i class="fa-regular fa-lemon"></i>
+                    <h4>FRESH FRUIT ADDED</h4>
+                    <p>Fresh fruits, carefully selected for their quality <br>and flavor, are added to enhance the taste and nutrition.</p>
+                </div>
+                <div class="p">
+                    <i class="fa-regular fa-gem"></i>
+                    <h4>DELICIOUS ICECREAM</h4>
+                    <p>The culmination of these steps results in a delicious <br> ice cream, a treat for the senses.</p>
+                </div>
+            </div>
+            <div class="banner">
+                <h4>SPECIAL DISCOUNT</h4>
+                <H2>GET SPECIAL FESTIVAL <br>DISCOUNT!</H2>
+                <div>
+                    <button class="bt2">Our Products <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="bt1">Contact us <i class="fa-solid fa-phone"></i></button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="f1">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <h5> Your Email</h5>
+                <button class="bt1"> Subscribe </button>
+            </div>
+            <hr>
+            <div class="f2">
+                <div class="nav2">
+                    <img src="./assets/logo.png" id="logo" alt="">
+                    <p>The best icecream sellers of the <br>
+                    City of Lakes Bhopal </p>
+                </div>
+                <div class="nav2">
+                    <h3>GET IN TOUCH</h3>
+                    <span><i class="fa-solid fa-location-dot"></i>Sagar High Street, Minal Residency</span> <br><br><br>
+                    <span><i class="fa-solid fa-envelope"></i>frostydelight@gmail.com</span> <br><br><br>
+                    <span><i class="fa-solid fa-phone"></i>+91(234)567890</span><br><br>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="nav2">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="nav2">
+                    <h3>Opening Hours</h3>
+                    <p>Mon-Fri: 09:00-18:00</p>
+                    <p>Saturday: 10:00-17:00</p>
+                    <p>Sunday: 10:00-17:00</p>
+                    <button class="bt3">Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <hr>
+            <div class="f3">
+                <p>Copyright @2024</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
