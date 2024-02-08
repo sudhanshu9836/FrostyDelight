@@ -8,6 +8,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -38,15 +39,17 @@ a{
     height: 50px;
     width: 125px;
     border-radius: 30px;
-    color: red;
+    color: #d10d46;
     cursor: pointer;
+    margin: 0px 20px
 }
 .bt2{
     height: 50px;
     width: 125px;
     border-radius: 30px;
     color: white;
-    background-color: red;
+    background-color: #c91546;
+    cursor: pointer;
 }
 .bt3{
     border: none;
@@ -55,7 +58,6 @@ a{
     font-size: 20px;
     cursor: pointer;
 }
-
 /* Header Styles */
 header{
     width: 100vw;
@@ -73,14 +75,15 @@ header{
     color: white;
     margin: 20px;
 }
-.social-icons i{
-    color: white;
-    margin: 10px;
+.nav a:hover{
+    color: #d10d46;
 }
+
 #our-menu{
     text-align: center;
     color: white;
-    font-style: 600;
+    font-size: 40px;
+    font-weight: 600px;
 }
 #home-menu{
     text-align: center;
@@ -96,16 +99,15 @@ main{
     margin-top: 100px;
 }
 #m1{
-    color: red;
+    color: #c91546;
     text-align: center;
     font-weight: lighter;
 }
 #m2{
-    color: red;
+    color: #c91546;
     text-align: center;
     font-weight: 600;
-    font-size: 2em;
-    word-spacing: 0.7em;
+    font-size: 2.5em;
     margin: 20px;
 }
 .menu{
@@ -149,7 +151,7 @@ main{
     margin-bottom: 40px;
 }
 .ice-cream h4{
-    color: red;
+    color: #c91546;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -171,7 +173,7 @@ main{
     align-items: center;
 }
 .s h4{
-    color: red;
+    color: #c91546;
 }
 
 .menu2{
@@ -195,7 +197,7 @@ main{
     margin-top: 100px;
 }
 .a2 h3{
-    color: red;
+    color: #c91546;
     margin-top: 30px;
 }
 .menu2A{
@@ -210,13 +212,13 @@ main{
     margin-top: 100px;
 }
 .b1 h3{
-    color: red;
+    color: #c91546;
     margin-top: 30px;
 }
 .b2{
     height: 400px;
     width: 400px;
-    background-image: url(./assets/creamy-mix.jpeg);
+    background-image: url(./assets/creamy-mix.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -232,11 +234,29 @@ main{
 .methods{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin: 80px 0px 50px -50px ;
 }
-.c1 h2{
+.p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p>i{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.p h4{
+    color: #c91546;
+    margin: 10px 0px;
+    font-size: 1.3em;
+}
+.p p{
+    text-align: center;
+}
+.c1 h1{
     font-weight: 700;
-    color: red;
+    color: #c91546;
+    margin: 15px 0px
 }
 
 .banner{
@@ -262,7 +282,7 @@ main{
 footer{
     width: 100vw;
     height: auto;
-    background-color: #f5b2c3;
+    background-color: #f39fb2;
 }
 .f1{
     color: white;
@@ -302,6 +322,10 @@ footer{
 }
 .social-icons{
     display: flex;
+}
+.social-icons i{
+    color: white;
+    margin: 10px;
 }
 .nav2 a{
     margin: 20px;
