@@ -29,12 +29,11 @@
             </div>
             <div class="main-head">
                 <h1 id="our-menu">Our Menu</h1>
-                <h4 id="home-menu">Home - Menu</h4>
             </div>
         </header>
         <main>
             <h4 id="m1">OUR PRODUCTS</h4>
-            <h2 id="m2"> REAL ICECREAM FOR REAL <br> PEOPLE</h2>
+            <div id="m2" >REAL ICECREAM FOR REAL <br> PEOPLE!</div>
             <div class="menu">
                 <div class="card" id="ice-box">
                     <img src="./assets/icecream.jpg" alt="ice-cream" class="menu-pic">
@@ -183,7 +182,7 @@
                 </div>
             </div>
             <div class="process">
-                <img src="./assets/try.jpg" alt="ice cream" id="process-pic">
+                <img src="./assets/process-icecream.jpg" alt="ice cream" id="process-pic">
                 <div class="c1">
                     <h4>HOW IT'S MADE</h4>
                     <h1>A TASTE OF PARADISE !</h2>
@@ -278,6 +277,11 @@
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="app.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+        el: document.querySelector('.body'),
+        smooth: true
+        });
+    </script>
 </body>
 </html>

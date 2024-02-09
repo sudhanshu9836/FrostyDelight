@@ -17,6 +17,8 @@ a{
 #logo{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 20px;
 }
 .menu-pic{
     height: 220px;
@@ -75,6 +77,7 @@ header{
 .nav a{
     color: white;
     margin: 20px;
+    font-size: 1.2rem;
 }
 .nav a:hover{
     color: #d10d46;
@@ -82,13 +85,9 @@ header{
 
 #our-menu{
     text-align: center;
-    color: white;
+    color: #d10d46;
     font-size: 40px;
     font-weight: 600px;
-}
-#home-menu{
-    text-align: center;
-    color: white;
 }
 .main-head{
     transform: translate(0px -100px);
@@ -100,7 +99,7 @@ main{
     margin-top: 100px;
 }
 #m1{
-    color: #c91546;
+    color: rgb(201, 21, 70);
     text-align: center;
     font-weight: lighter;
 }
@@ -294,7 +293,7 @@ main{
 footer{
     width: 100vw;
     height: auto;
-    background-color: #f39fb2;
+    background-color: rgb(215, 134, 152);
 }
 .f1{
     color: white;
@@ -339,10 +338,18 @@ footer{
     color: white;
     margin: 10px;
 }
+.social-icons i:hover{
+    font-size: 1.2rem;
+    color: #c91546;
+    cursor: pointer;
+}
 .nav2 a{
     margin: 20px;
     margin-top: 0px;
     color: white;
+}
+.nav2 a:hover{
+    text-decoration: underline;
 }
 .nav2 p{
     color: white;
