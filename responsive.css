@@ -1,0 +1,93 @@
+@media screen and (max-width:1400px) {
+    .p{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav a{
+        margin: 10px;
+    }
+    #shops-button{
+        height: 30px;
+        width: 90px;
+    }
+    #shops-button i{
+        display: none;
+    }
+    #logo{
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width:780px){    
+    #logo{
+        transform: scale(0.5);
+        margin-top: -30px;
+        margin-left: -40px;
+    }
+    .top{
+        display: flex;
+        justify-content: left;
+    }
+    .nav a {
+        display: flex;
+        flex-direction: column;
+    }
+    #our-menu{
+        transform: translate(0px, 50px);
+    }
+    .social-icons{
+        transform: translate(150px);
+    }
+    .social-icons i{
+        margin: 5px;
+    }
+    .nav{
+        transform: translate(100px);
+    }
+    #process-pic{
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width:720px){
+    .special{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .f2A{
+        display: none;
+    }
+}
+
+@media screen and (max-width:570px){
+    .special, .main-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu2A, .menu2B{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .a2, .b1{
+        margin-top: 5px;
+    }
+    footer{
+        font-size: 0.4;
+    }
+    .f2C{
+        margin-right: 10px;
+    }
+    #shops-button{
+        transform: translate(-110px, 60px);
+    }
+}

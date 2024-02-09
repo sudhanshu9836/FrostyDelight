@@ -272,7 +272,7 @@ main{
 
 .banner{
     height: 300px;
-    width: 1200px;
+    width: 80%;
     border-radius: 30px;
     margin: 100px auto;
     background-image: url(./assets/banner.jpeg);
