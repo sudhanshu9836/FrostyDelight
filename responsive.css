@@ -26,12 +26,15 @@
     #logo{
         transform: scale(0.7);
     }
+    .top img{
+        transform: scale(1);
+    }
     
 }
 
 @media screen and (max-width:780px){    
     #logo{
-        transform: scale(0.5);
+        transform: scale(0.9);
         margin-top: -30px;
         margin-left: -40px;
     }
@@ -58,10 +61,10 @@
     #process-pic{
         transform: scale(0.8);
     }
-    /* #method1{
-        margin-bottom: 100px;
-        transform: translate(-300px, 150px);
-    } */
+    .top img{
+        transform: scale(1.2);
+    }
+    
 }
 
 @media screen and (max-width:720px){
